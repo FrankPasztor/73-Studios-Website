@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://musictech.com/wp-content/uploads/2019/07/soys-splice-studio-02@1400x1050.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .logo-container img {
+    width: 90px;
+    height: auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .title h1,
+  .title p {
+    margin: 0 0 20px 0;
+  }
+  
+  .button {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  .button:hover {
+    border: 1px solid purple; 
+    background: purple;
+    transition: 1s;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+  }
+  
+  ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 12px;
+    position: relative; /
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  ul li a:hover {
+    color: purple;
+    background-color: transparent;
+  }
+  
+  ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #df1192;
+    display: block;
+    margin: auto;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  ul li:hover::after {
+    width: 100%;
+  }
+  .footer-text {
+   
+    color: black;
+    position: absolute;
+   
+    
+  }
